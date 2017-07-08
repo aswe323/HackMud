@@ -1,0 +1,19 @@
+function(context, args)
+{
+	var ez_X=["open","unlock","release"];
+	var unloc="!LOCK_UNLOCKED".length;
+	var s="";
+	var GC=false;
+	for(var k=0; k<3; k++)
+	{
+		ret=args.target.call({ez_21 : c[k]})
+		if(ret.substr(0,llen) ==="!LOCK_UNLOCKED")
+		{
+			GC=true;
+			break;
+		}
+	}
+	var caller = context.caller;
+	var l = #s.scripts.lib();
+	return { ok:false };
+}
